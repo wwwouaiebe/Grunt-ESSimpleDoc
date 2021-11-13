@@ -1,0 +1,21 @@
+{
+  "name": "grunt-essimpledoc",
+  "description": "Grunt pluginfor essimpledoc",
+   "version": "0.1.0",
+  "keywords": [
+   ],
+  "dependencies": {
+    "essimpledoc": "latest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wwwouaiebe/Grunt-ESSimpleDoc.git"
+  },
+  "engines": {
+    "node": ">=16.11.1"
+  },
+  "author": "wwwouaiebe",
+  "license": "GPL-3.0",
+  "sources": "https://github.com/wwwouaiebe/Grunt-ESSimpleDoc",
+  "homepage": "https://github.com/wwwouaiebe/Grunt-ESSimpleDoc#readme"
+}
