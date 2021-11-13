@@ -5,17 +5,14 @@ module.exports = function ( grunt ) {
 		'essimpledoc', 
 		'Build the HTML documentation from the JS sources.', 
 		async function ( ) {
-			let params = {
+			this.async ( );
+			( await import ( 'essimpledoc' ) ).startESSimpledDoc ( {
 				src : this.options ( ).src,
 				dest : this.options ( ).dest,
 				validate : this.options ( ).validate,
 				launch : this.options ( ).launch,
 				noSourcesColor : this.options ( ).noSourcesColor
-				
-			}
-			this.async ( );
-			let esd = await import ( 'essimpledoc' );
-			esd.startESSimpledDoc ( params );
+			} );
 		}
 	);
 };

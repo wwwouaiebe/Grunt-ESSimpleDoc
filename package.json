@@ -1,8 +1,9 @@
 {
   "name": "grunt-essimpledoc",
-  "description": "Grunt pluginfor essimpledoc",
+  "description": "Grunt plugin for essimpledoc",
    "version": "0.1.0",
   "keywords": [
+    grunt, essimpledoc
    ],
   "dependencies": {
     "essimpledoc": "latest"
