@@ -6,7 +6,7 @@
     "grunt", "essimpledoc"
    ],
   "dependencies": {
-    "essimpledoc": "latest"
+    "essimpledoc": "latest",
     "grunt": "latest",
   },
   "repository": {
