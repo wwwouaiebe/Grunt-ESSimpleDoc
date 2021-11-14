@@ -48,7 +48,7 @@ grunt.registerTask( 'esd', [ 'essimpledoc' ] );
 - dest : Its the directory where the documentation will be placed. **Be sure this directory don't contains any file**. 
 The complete directory will be deleted when ESSimpleDoc start. 
 - validate : a validation of the documentation will be performed when true.
-- launch : tour browser will be started and the index.html page of the documentation will be opened when true
+- launch : your browser will be started and the index.html page of the documentation will be opened when true
 - noSourcesColor : syntax colors and links to the classes and variables will not be added to the documentation when true.
 
 Notice: **src** and **dest** options are mandatory and the the directories must exists before you lauchn ESSimpleDoc. Others
