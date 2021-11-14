@@ -7,7 +7,7 @@
    ],
   "dependencies": {
     "essimpledoc": "latest",
-    "grunt": "latest",
+    "grunt": "latest"
   },
   "repository": {
     "type": "git",
