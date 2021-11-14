@@ -3,7 +3,7 @@
 module.exports = function ( grunt ) {
 	grunt.task.registerMultiTask ( 
 		'essimpledoc', 
-		'Build the HTML documentation from the JS sources.', 
+		'Building the HTML documentation from the JS sources.', 
 		async function ( ) {
 			this.async ( );
 			( await import ( 'essimpledoc' ) ).startESSimpledDoc ( {
