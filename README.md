@@ -37,6 +37,7 @@ grunt.loadNpmTasks('grunt-essimpledoc');
 
 And finally, register a task that load essimpledoc
 
+```
 grunt.registerTask( 'esd', [ 'essimpledoc' ] );
 
 ```
