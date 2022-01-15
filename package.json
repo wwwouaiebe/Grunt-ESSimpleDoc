@@ -1,7 +1,7 @@
 {
   "name": "grunt-essimpledoc",
   "description": "Grunt plugin for essimpledoc",
-   "version": "1.0.0",
+   "version": "1.0.1",
   "keywords": [
     "grunt", "essimpledoc"
    ],
