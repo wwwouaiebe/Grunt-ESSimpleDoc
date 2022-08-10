@@ -35,6 +35,7 @@ module.exports = function ( grunt ) {
 				src : this.options ( ).src,
 				dest : this.options ( ).dest,
 				validate : this.options ( ).validate,
+				noFiles : this.options ( ).noFiles,
 				launch : this.options ( ).launch,
 				noSourcesColor : this.options ( ).noSourcesColor
 			} );

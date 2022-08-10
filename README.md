@@ -21,6 +21,7 @@ grunt.initConfig({
 			src : './src',
 			dest : './techDoc',
 			validate : true,
+			noFiles : false,
 			launch : true,
 			noSourcesColor : false
 		}
@@ -48,6 +49,7 @@ grunt.registerTask( 'esd', [ 'essimpledoc' ] );
 - dest : Its the directory where the documentation will be placed. **Be sure this directory don't contains any file**. 
 The complete directory will be deleted when ESSimpleDoc start. 
 - validate : a validation of the documentation will be performed when true.
+- noFiles : the HTML files are not generated when true.
 - launch : your browser will be started and the index.html page of the documentation will be opened when true
 - noSourcesColor : syntax colors and links to the classes and variables will not be added to the documentation when true.
 
@@ -67,7 +69,10 @@ grunt.initConfig({
 			options : {
 				src : './src',
 				dest : './techDoc',
-				noSourcesColor : true
+				noSourcesColor : true,
+				validate : true,
+				noFiles : true,
+				launch : false
 			}
 		},
 		release : {
@@ -75,6 +80,7 @@ grunt.initConfig({
 				src : './src',
 				dest : './techDoc',
 				validate : true,
+				noFiles : false,
 				launch : true
 			}
 		}
