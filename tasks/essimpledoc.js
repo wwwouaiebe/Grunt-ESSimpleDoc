@@ -30,7 +30,7 @@ module.exports = function ( grunt ) {
 		'essimpledoc', 
 		'Building the HTML documentation from the JS sources.', 
 		async function ( ) {
-			this.async ( );
+			var done = this.async ( );
 			( await import ( 'essimpledoc' ) ).startESSimpledDoc ( {
 				src : this.options ( ).src,
 				dest : this.options ( ).dest,
@@ -39,6 +39,7 @@ module.exports = function ( grunt ) {
 				launch : this.options ( ).launch,
 				noSourcesColor : this.options ( ).noSourcesColor
 			} );
+			done ( );
 		}
 	);
 };
