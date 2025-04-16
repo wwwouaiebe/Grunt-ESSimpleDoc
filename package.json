@@ -1,7 +1,7 @@
 {
   "name": "grunt-essimpledoc",
   "description": "Grunt plugin for essimpledoc",
-   "version": "1.2.5",
+   "version": "1.2.6",
   "keywords": [
     "grunt", "essimpledoc"
    ],
@@ -14,7 +14,7 @@
     "url": "git+https://github.com/wwwouaiebe/Grunt-ESSimpleDoc.git"
   },
   "engines": {
-    "node": ">=18.18.0"
+    "node": ">=22.14.0"
   },
   "author": "wwwouaiebe",
   "license": "GPL-3.0",
